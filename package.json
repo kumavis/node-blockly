@@ -7,7 +7,7 @@
     "start": "node ./node_modules/http-server/bin/http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/kumavis/node-blockly",
   "author": "kumavis",
   "license": "BSD",
   "devDependencies": {

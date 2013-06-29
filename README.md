@@ -1,13 +1,5 @@
-Notes
-=====
+This is the Blockly Core, prepared for the Node ecosystem
 
-exposes `window.Blockly` to communciate through iframes
+see the (original repo)[https://code.google.com/p/blockly/] on google code for more information
 
-its `Blockly` not `Blocky` (this was the source of numerous bugs during development) 0_0
-
-
-Start
-=====
-`node compile_soy.js`
-`browserify index.js >>| bundle.js`
-`npm start`
+At this time the best way to consume this module is to include it as a dependency, and then `require('./node_modules/blockly/lib/blockly_compressed.js')` or whatever file you may need. 
