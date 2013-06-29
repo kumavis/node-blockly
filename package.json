@@ -1,6 +1,6 @@
 {
   "name": "blockly",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Scratch in the browser! blockly on node!",
   "main": "index.js",
   "scripts": {
