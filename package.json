@@ -1,14 +1,19 @@
 {
   "name": "blockly",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Scratch in the browser! blockly on node!",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/kumavis/node-blockly",
-  "author": "kumavis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumavis/node-blockly"
+  },
+  "author": {
+    "name": "kumavis"
+  },
   "license": "BSD",
   "devDependencies": {
     "http-server": "~0.5.3",
@@ -16,5 +21,16 @@
   },
   "dependencies": {
     "javascript-editor": "git://github.com/kumavis/javascript-editor.git#master"
-  }
+  },
+  "readme": "This is the Blockly Core, prepared for the Node ecosystem\n\nsee the (original repo)[https://code.google.com/p/blockly/] on google code for more information\n\nAt this time the best way to consume this module is to include it as a dependency, and then `require('./node_modules/blockly/lib/blockly_compressed.js')` or whatever file you may need. ",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kumavis/node-blockly/issues"
+  },
+  "_id": "blockly@0.0.4",
+  "dist": {
+    "shasum": "53b1e967ba29dbd053be6e10a3075793b6e15c56"
+  },
+  "_resolved": "git://github.com/kumavis/node-blockly.git#04a4131e20b98441fcc1e144356acbaf097f8324",
+  "_from": "blockly@git://github.com/kumavis/node-blockly.git#master"
 }
