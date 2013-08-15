@@ -1,7 +1,7 @@
 {
   "name": "blockly",
-  "version": "0.0.5",
-  "description": "Scratch in the browser! blockly on node!",
+  "version": "0.0.6",
+  "description": "Browser-friendly Scratch-clone, Blockly! now on node",
   "main": "lib/blockly_compressed.js",
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
