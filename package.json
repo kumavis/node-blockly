@@ -2,7 +2,7 @@
   "name": "blockly",
   "version": "0.0.5",
   "description": "Scratch in the browser! blockly on node!",
-  "main": "index.js",
+  "main": "lib/blockly_compressed.js",
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
