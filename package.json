@@ -16,8 +16,8 @@
   },
   "license": "BSD",
   "devDependencies": {
-    "http-server": "~0.5.3",
-    "soynode": "~0.3.0"
+    "http-server": "~0.9.0",
+    "soynode": "~1.1.0"
   },
   "dependencies": {
     "javascript-editor": "git://github.com/kumavis/javascript-editor.git#master"
