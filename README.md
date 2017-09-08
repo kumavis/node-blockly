@@ -1,6 +1,8 @@
 #Node-Blockly
 ###The Blockly Core, ready to Browserify in the Node.js style.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kumavis/node-blockly.svg)](https://greenkeeper.io/)
+
 see the [original repo on google code](https://code.google.com/p/blockly/) for more information
 
 First just install:
